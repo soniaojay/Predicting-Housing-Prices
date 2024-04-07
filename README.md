@@ -1,4 +1,4 @@
-# House Sales Linear Regression Analysis
+# REAL ESTATE PRICING  PREDICTION -KING COUNTY 
 <img width="514" alt="image" src="https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/151248454/86c195e2-09c1-4f4c-bc27-232592bc3549">
 
 ## Authors
@@ -32,19 +32,29 @@ The data used in this analysis was from 'kc_house_csv' database. The selected da
 
 
 ## Methods
+For purposes of this project, the 'kc_house_csv' dataset was used.
+1. Data preparation was conducted including the identification and handling:
+    - Missing values
+    -  Duplicates
+    - Outliers
+    - Data types for specific variables
+The original data set contained 21,597 houses.After Data preparation, a total of 16,856 houses were adopted for further analysis. 
+The following Housing features were used in conducting the analysis: price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, sqft_basement, yr_built, lat, long, sqft_living15, sqft_lot15, grading.
+2. Exploratory Data Analysis
+ EDA was conducted  by:
+    -  assesing descriptive statistics of the dataset
+    - visualizing outputs in Barcharts, Histograms, Violin Plot, scatterplots and Heatmap to understand the distribution and correlation of various features.
+3. Inferential Statistics
+  Hypothesis testing using ANOVA(Analysis of Variance)
+4. Modelling
+   - Simple Linear Regression
+   - Multiple Linear Regression
+     - Feature Engineering
+     - One Hot Encoding(Dealing with categorical Data)
+     - Normalization/Standadization
+     - Split- Train Test
+     - Model Evaluation
 
-The project uses descriptive analysis and inferential analysis including histograms, scatter plots, bar graphs, relation matrix e.t.c. 
-
-The following steps were undertaken:
-Data Understanding: Explore the dataset to understand the features and their potential impact on home values. Identify any data quality issues or limitations that may need to be addressed.
-
-Data Preparation: Clean the data by handling missing values or outliers and perform any necessary feature engineering to prepare the dataset for regression modeling.
-
-Model Training: We train a linear regression model using the 'LinearRegression' class from scikit-learn. The training data is preprocessed by scaling numerical features and encoding categorical variables. After training the model, we make predictions on the test data and evaluate its performance using metrics such as mean absolute error.
-
-Model Evaluation: We evaluate the trained model's performance using mean absolute error (MAE) and R-squared score. The MAE measures the average absolute difference between the predicted and actual house prices, while the R-squared score indicates the proportion of variance in the target variable explained by the model.
-
-Dealing with Categorical Data: Categorical variables are one-hot encoded before training the model. This ensures that categorical features are represented as binary vectors, making them suitable for linear regression.
 
 
 ## Results
