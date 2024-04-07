@@ -1,5 +1,7 @@
 # REAL ESTATE PRICING  PREDICTION -KING COUNTY 
-<img width="514" alt="image" src="https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/151248454/86c195e2-09c1-4f4c-bc27-232592bc3549">
+
+![image](https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/63707906/6c8263ca-c7eb-4b63-b74a-24c1c03c29db)
+
 
 ## Authors
 [Frida Oyucho]
@@ -17,7 +19,8 @@ This repository contains the code and documentation for a project focused on uti
 
 ## Business Problem
 
-<img width="513" alt="image" src="https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/151248454/05c59b39-b0e7-4474-a97d-56f166e6d144">
+![image](https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/63707906/e9edc20f-d6be-4888-ac49-7828353a0b38)
+
 
 The primary challenge facing stakeholders in King County's real estate market is accurately predicting house prices.
 The dynamic nature of the housing market, coupled with factors such as population growth, economic fluctuations, and changing buyer preferences, makes it difficult to determine optimal pricing strategies for properties. 
