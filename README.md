@@ -51,6 +51,21 @@ Dealing with Categorical Data: Categorical variables are one-hot encoded before 
 
 Univariate Analysis:
 
+![image](https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/63707906/ee59f922-184f-4ce0-85c8-08cd6ba3ac0e)
+
+The distribution of bedrooms is nearly normal.
+Majority of the houses found nearly at the centre of the distribution.
+Specifically, 3-bedroomed houses are the highest.
+5 bedroomed houses are the least in number.
+
+![image](https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/63707906/bc83235b-7460-4500-a5ed-f38284e955ee)
+
+The number of floors is positively skewed.
+Majority of the houses have fewer floors.
+Specifically, houses with 1 floor are the highest at about 9000 houses.
+This is followed by 2-floor houses at about 6000.
+
+
 <img width="570" alt="image" src="https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/151248454/1ce4b7c1-2560-4f4f-838e-fcdd5990a929">
 
 The analysis reveals that houses with average condition have the highest count at 10,903.
@@ -79,36 +94,28 @@ This is in line with the expectation of the houses with larger sqft living comma
 Sqft lot has the weakest negative correlation with price at -0.026.
 This implies that the size of the lot (in square footage) is not a strong determinant of the price.
 
-Hypothesis Testing (Using ANOVA)
+Hypothesis Testing (Using ANOVA):
 
 ![image](https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/63707906/0a7610d1-2a05-45f6-8d9f-2fdeec670194)
 
 Null Hypothesis (H0): There is no significant relationship between the various housing features and house prices in King County's real estate market. 
-
 Alternate Hypothesis (H1): There is a significant relationship between the various housing features and house prices in King County's real estate market.
-
-
-
 The ANOVA test reveals that collectively, the p-values are below alpha of 0.05.
 Based on the provided ANOVA table, we reject the null hypothesis (H0) that there is no significant relationship between the various housing features and house prices in King County's real estate market.
-
 Therefore, we accept the alternate hypothesis (H1) that there is a significant relationship between the various housing features and house prices in King County's real estate market
 
 
-### Simple Linear Regression Model
+### Simple Linear Regression Model:
 
 ![image](https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/151248454/8f42e8e0-d6bc-4162-8215-32f2b1791589)
+
 The r-squared value of the Simple Linear regression model was 32.7%. This value indicates that approximately 32.7% of the variability in the dependent variable (Price) is accounted for by the independent variable(sqft_living) in our model. Meaning the remaining 67.3% of the variability is not accounted for.
 The r-squared value of 32.7% suggests a moderate level of explanatory power of our regression model. This result highlights the need for further research to explore additional variables and factors that may influence the dependent variable (Price) and to improve the predictive accuracy and explanatory power of the model.
 Is the model statistically significant at 𝛼=0.05?
 The p-value obtained is  0.000 which is less than the 𝛼=0.05 thereby concluding that the model is statistically significant.
 Further results shows that a y-intercept of $144,762.76 was achieved, meaning for every increase of 1 square foot living area, the price increases by $166.98 
 
-
-
-
-
-### Multiple Linear Regression Model
+### Multiple Linear Regression Model:
 
 ![image](https://github.com/FridaOyucho/Predicting-Housing-Prices/assets/63707906/e4219cb5-a58b-4d4b-b7f5-fb54162991e4)
 
